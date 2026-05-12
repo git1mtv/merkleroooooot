@@ -1,6 +1,7 @@
 {
     "name": "git1mtv/merkleroooooot",
     "description": "My package",
+    "version": "1.0.x-dev",
     "type": "library",
     "license": "MIT",
     "autoload": {
