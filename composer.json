@@ -1,17 +1,12 @@
 {
     "name": "git1mtv/merkleroooooot",
-    "description": "My package",
-    "version": "1.0.x-dev",
-    "minimum-stability": "dev",
-    "prefer-stable": false,
+    "description": "Test library",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "User\\Package\\": "src/"
+            "Alex\\TestLib\\": "src/"
         }
     },
-    "require": {
-        "php": ">=5"
-    }
+    "require": {}
 }
