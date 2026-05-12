@@ -2,16 +2,13 @@
     "name": "git1mtv/merkleroooooot",
     "description": "My package",
     "version": "1.0.x-dev",
+    "minimum-stability": "dev",
+    "prefer-stable": false,
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "User\\Package\\": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0.x-dev"
         }
     },
     "require": {
