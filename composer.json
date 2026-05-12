@@ -12,7 +12,7 @@
         "branch-alias": {
             "dev-main": "1.0.x-dev"
         }
-    }
+    },
     "require": {
         "php": ">=5"
     }
