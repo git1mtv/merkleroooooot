@@ -1,8 +1,6 @@
 {
     "name": "git1mtv/merkleroooooot",
     "description": "My package",
-    "version": "main",
-    "minimum-stability": "dev",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -10,6 +8,11 @@
             "User\\Package\\": "src/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
     "require": {
         "php": ">=5"
     }
