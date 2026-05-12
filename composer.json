@@ -1,18 +1,14 @@
 {
     "name": "git1mtv/merkleroooooot",
-    "description": "Description",
+    "description": "My package",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Bob",
-            "email": "bob@email.com"
-        }
-    ],
-    "require": {},
     "autoload": {
         "psr-4": {
-            "MyPackage\\": "src/"
+            "User\\Package\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=7.4"
     }
 }
